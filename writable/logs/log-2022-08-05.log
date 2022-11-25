@@ -1,0 +1,832 @@
+CRITICAL - 2022-08-05 00:08:07 --> Undefined property: App\Controllers\trpadmin\trpadmin::$dmodal
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->change_password()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 00:53:03 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/user_pr...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(50): view('trpview/user_pr...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->userprofile()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 00:53:11 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/user_pr...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(50): view('trpview/user_pr...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->userprofile()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 01:11:49 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/user_pr...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(50): view('trpview/user_pr...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->userprofile()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 01:12:07 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\trp\system\Database\Query.php(318): strtr('DELETE FROM `us...', Array)
+#1 C:\xampp\htdocs\trp\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('DELETE FROM `us...', Array)
+#2 C:\xampp\htdocs\trp\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#5 C:\xampp\htdocs\trp\app\Models\dashboardmodel.php(90): CodeIgniter\Database\BaseBuilder->delete(Array)
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(199): App\Models\dashboardmodel->deleteProfilePic(Array, '2')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_profile_pic()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-08-05 01:13:31 --> Unknown column 'userdata' in 'where clause'
+CRITICAL - 2022-08-05 01:13:31 --> Unknown column 'userdata' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\dashboardmodel.php(90): CodeIgniter\Database\BaseBuilder->delete('userdata')
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(199): App\Models\dashboardmodel->deleteProfilePic('userdata', '2')
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_profile_pic()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-05 01:19:21 --> Attempt to read property "id" on bool
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 199)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_profile_pic()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 01:20:43 --> Attempt to read property "id" on bool
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 199)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_profile_pic()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 01:20:44 --> Attempt to read property "id" on bool
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 199)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_profile_pic()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 01:20:45 --> Attempt to read property "id" on bool
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 199)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_profile_pic()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 01:21:28 --> Attempt to read property "id" on bool
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 199)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_profile_pic()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 01:21:51 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-08-05 01:21:51 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `us...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\dashboardmodel.php(90): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(199): App\Models\dashboardmodel->deleteProfilePic(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_profile_pic()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-05 01:23:51 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/user_pr...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(50): view('trpview/user_pr...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->userprofile()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 01:23:51 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/dashboa...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(34): view('trpview/dashboa...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 01:23:52 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/user_pr...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(50): view('trpview/user_pr...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->userprofile()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 01:23:53 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/dashboa...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(34): view('trpview/dashboa...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 02:04:41 --> Undefined property: stdClass::$profille_pic
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 171)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_profile_pic()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 03:02:40 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\trp\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\trp\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(352): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_nor()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 03:02:42 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\trp\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\trp\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(352): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_nor()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 03:02:43 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\trp\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\trp\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(352): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_nor()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 03:02:43 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\trp\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\trp\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(352): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_nor()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 03:02:44 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\trp\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\trp\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(352): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_nor()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 03:02:44 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\trp\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\trp\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(352): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_nor()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 03:02:57 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\trp\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\trp\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(352): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_nor()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 03:03:11 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\trp\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\trp\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(352): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->delete_nor()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 16:59:40 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/user_pr...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(50): view('trpview/user_pr...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->userprofile()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 17:09:03 --> Attempt to read property "id" on string
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 427)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 17:10:00 --> Attempt to read property "name" on string
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 427)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 17:11:37 --> Attempt to read property "id" on string
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 427)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-05 17:12:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:' at line 3
+CRITICAL - 2022-08-05 17:12:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:' at line 3
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\selectmodel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(223): App\Models\selectmodel->dlyofficeSelect()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-05 17:14:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:' at line 3
+CRITICAL - 2022-08-05 17:14:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:' at line 3
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\selectmodel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(223): App\Models\selectmodel->dlyofficeSelect()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-05 17:14:24 --> Attempt to read property "id" on string
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 427)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 17:15:13 --> Attempt to read property "id" on string
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 427)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 17:15:16 --> Attempt to read property "id" on string
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 427)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 17:18:18 --> Attempt to read property "id" on string
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 427)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 17:20:12 --> Attempt to read property "id" on string
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 427)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 17:20:57 --> Attempt to read property "username" on string
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 427)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 17:21:14 --> Attempt to read property "username" on string
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 427)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 17:21:50 --> Attempt to read property "id" on string
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(427): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 427)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 17:29:39 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-05 17:29:45 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-05 17:41:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+CRITICAL - 2022-08-05 17:41:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\selectmodel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(227): App\Models\selectmodel->dlyofficeSelect()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-05 17:42:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+CRITICAL - 2022-08-05 17:42:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\selectmodel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(227): App\Models\selectmodel->dlyofficeSelect()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-05 17:42:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+CRITICAL - 2022-08-05 17:42:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\selectmodel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(227): App\Models\selectmodel->dlyofficeSelect()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-05 17:48:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+CRITICAL - 2022-08-05 17:48:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\selectmodel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(227): App\Models\selectmodel->dlyofficeSelect()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-05 17:48:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+CRITICAL - 2022-08-05 17:48:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\selectmodel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(227): App\Models\selectmodel->dlyofficeSelect()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-05 17:49:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+CRITICAL - 2022-08-05 17:49:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\selectmodel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(227): App\Models\selectmodel->dlyofficeSelect()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-05 17:49:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+CRITICAL - 2022-08-05 17:49:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\selectmodel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(227): App\Models\selectmodel->dlyofficeSelect()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-05 17:50:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+CRITICAL - 2022-08-05 17:50:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\selectmodel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(227): App\Models\selectmodel->dlyofficeSelect()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-05 17:50:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+CRITICAL - 2022-08-05 17:50:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''3' at line 3
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\selectmodel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(227): App\Models\selectmodel->dlyofficeSelect()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-05 18:06:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): CodeIgniter\Model->__call('freighttypeSele...', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 18:07:42 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(229): CodeIgniter\Model->__call('freighttypeSele...', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-05 20:38:50 --> Undefined property: App\Controllers\trpadmin\login::$loginModel
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 230)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 20:39:22 --> Undefined property: App\Controllers\trpadmin\login::$login_model
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 230)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 20:40:02 --> Undefined array key "name"
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 236)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 20:40:27 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 20:40:27 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 272
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(272): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 20:58:51 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 20:58:51 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 272
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(272): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 20:59:35 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 20:59:35 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 272
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(272): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:00:19 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:00:19 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:00:29 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:00:29 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:00:43 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:00:43 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:05:28 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:05:28 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:05:33 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:05:33 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:05:41 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:05:41 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:12:48 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:12:48 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:13:05 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:13:05 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:13:26 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:13:26 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:14:02 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:14:02 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:14:31 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:14:31 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:14:55 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:14:55 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:16:27 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:16:27 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:17:52 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:17:52 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:18:05 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:18:05 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:27:09 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:27:09 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 273
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(273): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:33:45 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:33:45 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-05 21:40:30 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-08-05 21:40:30 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', 'Unable to send ...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 21:49:37 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 21:49:59 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 21:59:43 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:03:59 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:08:09 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:08:18 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:09:21 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:13:14 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:34:39 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:53:48 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:57:20 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 22:57:44 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-05 23:08:17 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php on line 232
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(232): view('trpview/forgotp...', '220 smtp.gmail....')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

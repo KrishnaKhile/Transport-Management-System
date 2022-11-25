@@ -1,0 +1,951 @@
+CRITICAL - 2022-03-28 05:04:45 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 05:09:40 --> Attempt to read property "transactionid" on array
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(35): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 05:12:17 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 05:14:17 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 05:18:38 --> Attempt to read property "transactionid" on array
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(35): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 05:21:26 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+#0 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(32): count(Object(stdClass))
+#1 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(41): App\Models\adminmodel->getNew('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-28 05:21:43 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+#0 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(32): count(Object(stdClass))
+#1 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(41): App\Models\adminmodel->getNew('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-28 05:25:00 --> Too few arguments to function App\Models\adminmodel::getNew(), 0 passed in C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php on line 41 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(41): App\Models\adminmodel->getNew()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 05:26:10 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, 1 given
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('1')
+#1 C:\xampp\htdocs\mywork\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('1')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('1')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseResult->getResult('1')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(41): App\Models\adminmodel->getNew('1')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 05:26:56 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, 1 given
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('1')
+#1 C:\xampp\htdocs\mywork\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('1')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('1')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseResult->getResult('1')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(41): App\Models\adminmodel->getNew('1')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 05:27:01 --> Too few arguments to function App\Controllers\admin\ad::singleOrder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 05:27:38 --> Too few arguments to function App\Controllers\admin\ad::singleOrder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 05:27:44 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, 1 given
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('1')
+#1 C:\xampp\htdocs\mywork\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('1')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('1')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseResult->getResult('1')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(41): App\Models\adminmodel->getNew('1')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 05:31:15 --> Too few arguments to function App\Controllers\admin\ad::singleOrder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 05:49:33 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(41): App\Models\adminmodel->getNew('1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 05:51:12 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(41): App\Models\adminmodel->getNew('1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 06:06:18 --> Too few arguments to function App\Models\adminmodel::getNew(), 0 passed in C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php on line 32 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(32): App\Models\adminmodel->getNew()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 06:35:09 --> syntax error, unexpected token "=>", expecting "]"
+#0 C:\xampp\htdocs\mywork\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\mywork\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\admi...')
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(40): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\admi...')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('3')
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 06:36:28 --> Too few arguments to function App\Controllers\admin\ad::singleOrder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 06:37:00 --> Too few arguments to function App\Controllers\admin\ad::singleOrder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 06:50:47 --> syntax error, unexpected single-quoted string "", expecting ")"
+#0 C:\xampp\htdocs\mywork\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\mywork\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\admi...')
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(31): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\admi...')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 06:53:06 --> syntax error, unexpected single-quoted string "", expecting ")"
+#0 C:\xampp\htdocs\mywork\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\mywork\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\admi...')
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(31): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\admi...')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 06:53:09 --> syntax error, unexpected single-quoted string "", expecting ")"
+#0 C:\xampp\htdocs\mywork\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\mywork\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\admi...')
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(31): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\admi...')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 06:57:23 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\mywork\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\mywork\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\admi...')
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(31): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\admi...')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 07:02:22 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 07:03:38 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 07:03:52 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 07:05:48 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 07:12:37 --> Attempt to read property "transactionid" on array
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(36): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 07:14:30 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(36): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 07:21:44 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-28 07:25:18 --> Unknown column 'neworder' in 'where clause'
+CRITICAL - 2022-03-28 07:25:18 --> Unknown column 'neworder' in 'where clause'
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(42): App\Models\adminmodel->getNew('neworder')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('neworder')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-28 07:25:47 --> Unknown column 'neworder' in 'where clause'
+CRITICAL - 2022-03-28 07:25:47 --> Unknown column 'neworder' in 'where clause'
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(42): App\Models\adminmodel->getNew('neworder')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('neworder')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-28 07:30:09 --> Unknown column 'neworder' in 'where clause'
+CRITICAL - 2022-03-28 07:30:09 --> Unknown column 'neworder' in 'where clause'
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(42): App\Models\adminmodel->getNew('neworder')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('neworder')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 07:33:43 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(46): view('adminview/newor...', Array)
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 07:36:17 --> Object of class stdClass could not be converted to int
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworderinfo.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(46): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 07:39:14 --> Object of class stdClass could not be converted to int
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworderinfo.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(46): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-28 07:39:41 --> Unknown column 'neworder' in 'where clause'
+CRITICAL - 2022-03-28 07:39:41 --> Unknown column 'neworder' in 'where clause'
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(42): App\Models\adminmodel->getNew('neworder')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('neworder')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 07:39:54 --> Too few arguments to function App\Controllers\admin\ad::singleOrder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 07:47:16 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(37): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 07:50:57 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(37): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 07:51:31 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(37): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 07:54:31 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(37): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 07:55:18 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(37): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 07:55:25 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(37): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('3')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 07:56:16 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(37): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('3')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-28 07:58:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+CRITICAL - 2022-03-28 07:58:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.js.map' at line 1
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(35): App\Models\adminmodel->getNew('bootstrap.bundl...')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('bootstrap.bundl...')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:12:19 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(37): view('adminview/newor...', Array, Array)
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 11:16:17 --> Undefined array key 1
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:22:34 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(39): view('adminview/newor...', Array, Array)
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 11:23:00 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(39): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:24:39 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(39): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:26:12 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(39): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:31:23 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(39): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:31:57 --> Undefined variable $singledata
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(39): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:38:17 --> Undefined variable $transactionid
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:39:35 --> Undefined variable $transactionid
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:41:55 --> Undefined variable $transactionid
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:44:19 --> Undefined variable $transactionid
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:47:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('neworder')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 11:48:01 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 11:53:26 --> Undefined variable $transactionid
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('4')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:54:12 --> Undefined variable $transactionid
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('4')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:55:35 --> Undefined variable $transactionid
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('4')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:56:46 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('4')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:57:29 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('4')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:58:46 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('4')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:59:01 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('4')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:59:06 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 11:59:11 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 12:13:45 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 12:20:41 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 12:21:34 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 12:22:09 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-28 12:30:28 --> Too few arguments to function App\Models\adminmodel::getNew(), 0 passed in C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php on line 35 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(35): App\Models\adminmodel->getNew()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 13:51:05 --> Too few arguments to function App\Models\adminmodel::getNew(), 0 passed in C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php on line 35 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(35): App\Models\adminmodel->getNew()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 13:53:59 --> Too few arguments to function App\Models\adminmodel::getNew(), 0 passed in C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php on line 35 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(35): App\Models\adminmodel->getNew()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 13:54:20 --> Too few arguments to function App\Models\adminmodel::getNew(), 0 passed in C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php on line 35 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(35): App\Models\adminmodel->getNew()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-28 13:55:34 --> Undefined variable $tran
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 14:05:45 --> syntax error, unexpected token "as"
+#0 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 14:06:05 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-28 14:07:27 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 14:08:43 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 14:09:46 --> Undefined variable $user
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 14:10:22 --> Undefined variable $user
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('2')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 14:14:21 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-28 14:14:37 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 14:16:04 --> Undefined variable $transactionid
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 14:16:47 --> Attempt to read property "transactionid" on string
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 14:17:28 --> Undefined variable $transactionid
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 14:17:47 --> Attempt to read property "transactionid" on string
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 14:29:44 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\View\View.php(226): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(54): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 14:32:43 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\View\View.php(226): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(54): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 14:33:05 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\View\View.php(226): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(54): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->singleOrder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-28 14:39:01 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 14:39:07 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array)
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-28 14:40:35 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-28 14:40:41 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-28 14:40:49 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(44): view('adminview/newor...', Array, Array)
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-28 23:53:05 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\mywork\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\mywork\system\Model.php(130): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\mywork\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#3 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(38): CodeIgniter\BaseModel->find('1')
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-28 23:53:09 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

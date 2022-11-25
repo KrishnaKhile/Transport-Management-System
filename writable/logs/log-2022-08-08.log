@@ -1,0 +1,134 @@
+ERROR - 2022-08-08 00:54:47 --> Column 'entered_by' cannot be null
+CRITICAL - 2022-08-08 00:54:47 --> Column 'entered_by' cannot be null
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bi...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\dashboardmodel.php(123): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(300): App\Models\dashboardmodel->addBilty(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-08 00:57:19 --> Column 'entered_by' cannot be null
+CRITICAL - 2022-08-08 00:57:19 --> Column 'entered_by' cannot be null
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bi...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\dashboardmodel.php(123): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(300): App\Models\dashboardmodel->addBilty(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-08 00:57:58 --> Column 'entered_by' cannot be null
+CRITICAL - 2022-08-08 00:57:58 --> Column 'entered_by' cannot be null
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bi...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\dashboardmodel.php(123): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(300): App\Models\dashboardmodel->addBilty(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-08 01:01:20 --> Column 'total_freight' cannot be null
+CRITICAL - 2022-08-08 01:01:20 --> Column 'total_freight' cannot be null
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bi...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\dashboardmodel.php(123): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(300): App\Models\dashboardmodel->addBilty(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-08 01:02:36 --> Undefined property: App\Controllers\trpadmin\trpadmin::$session
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 302)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-08 01:09:24 --> Column 'total_freight' cannot be null
+CRITICAL - 2022-08-08 01:09:24 --> Column 'total_freight' cannot be null
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bi...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\dashboardmodel.php(123): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(302): App\Models\dashboardmodel->addBilty(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-08 01:09:45 --> Column 'total_freight' cannot be null
+CRITICAL - 2022-08-08 01:09:45 --> Column 'total_freight' cannot be null
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bi...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\dashboardmodel.php(123): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(302): App\Models\dashboardmodel->addBilty(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-08 01:18:03 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(270): count('22')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 16:35:07 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(270): count('7')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 16:38:15 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(270): count('7')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 16:39:40 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(270): count('7')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 16:39:44 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(270): count('7')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 16:40:24 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(270): count('7')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-08 17:38:36 --> Undefined property: CodeIgniter\HTTP\Response::$setJSON
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(323): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 323)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->getbiltydata()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

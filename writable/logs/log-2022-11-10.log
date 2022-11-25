@@ -1,0 +1,25 @@
+ERROR - 2022-11-10 23:04:49 --> MySQL server has gone away
+CRITICAL - 2022-11-10 23:04:49 --> MySQL server has gone away
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `r...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `r...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `r...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `r...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\login_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\login.php(36): App\Models\login_model->verifyUsername('krishna@gmail.c...')
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->index()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-11-10 23:05:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-11-10 23:05:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `r...', Array, false)
+#2 D:\XAMPP\htdocs\trp\app\Models\login_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\login.php(36): App\Models\login_model->verifyUsername('krishna@gmail.c...')
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->index()
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

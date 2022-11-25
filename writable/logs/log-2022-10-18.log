@@ -1,0 +1,54 @@
+CRITICAL - 2022-10-18 10:25:37 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 10:26:00 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 10:26:08 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 10:26:12 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 10:27:15 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-18 22:44:38 --> syntax error, unexpected identifier "display_error", expecting "]"
+#0 D:\XAMPP\htdocs\trp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('trpadmin/trpadm...')
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('trpadmin/trpadm...')
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-18 23:09:15 --> Undefined array key "nor_id"
+#0 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 365)
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertapi()
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-18 23:12:36 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-18 23:12:48 --> Trying to access array offset on value of type bool
+#0 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\XAMPP\\htdocs...', 372)
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertapi()
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

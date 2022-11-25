@@ -1,0 +1,188 @@
+CRITICAL - 2022-04-03 00:10:41 --> Object of class App\Models\adminmodel could not be converted to string
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->updatenew('1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-03 00:10:49 --> Object of class App\Models\adminmodel could not be converted to string
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->updatenew('1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-03 00:11:25 --> Object of class App\Models\adminmodel could not be converted to string
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->updatenew('1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-03 00:12:21 --> Undefined property: App\Controllers\admin\ad::$input
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->updatenew('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 00:12:54 --> Object of class App\Models\adminmodel could not be converted to string
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->updatenew('1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-03 00:13:53 --> Object of class App\Models\adminmodel could not be converted to string
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->updatenew('1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-03 00:14:27 --> Undefined property: App\Controllers\admin\ad::$input
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->updatenew('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-03 05:34:32 --> Unknown column 'neworder' in 'where clause'
+CRITICAL - 2022-04-03 05:34:33 --> Unknown column 'neworder' in 'where clause'
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(48): App\Models\adminmodel->getNew('neworder')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('neworder', '1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-03 05:43:37 --> Undefined array key "transactionid"
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 05:45:43 --> Undefined array key "transactionid"
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 05:46:38 --> Undefined array key 1
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 05:47:31 --> Attempt to read property "transactionid" on string
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 05:48:35 --> Undefined variable $transactio
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 05:49:43 --> Allowed fields must be specified for model: App\Models\adminmodel
+#0 C:\xampp\htdocs\mywork\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\admi...')
+#1 C:\xampp\htdocs\mywork\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\mywork\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\mywork\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(54): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('3')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-03 05:52:25 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\mywork\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\mywork\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\mywork\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\mywork\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(54): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('3')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-03 05:52:53 --> Undefined array key "transactionid"
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 05:56:08 --> Undefined array key "transactionid"
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 05:57:25 --> Undefined array key "transactionid"
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 06:02:55 --> Undefined array key "transactionid"
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 06:03:14 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\mywork\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\mywork\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\mywork\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\mywork\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(54): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('3')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-03 06:06:24 --> Too few arguments to function App\Models\adminmodel::updatenew(), 1 passed in C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php on line 54 and exactly 2 expected
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(54): App\Models\adminmodel->updatenew(Array)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('3')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 06:07:42 --> Array to string conversion
+#0 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(54): App\Models\adminmodel->getNew(Array)
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('3')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-03 06:15:28 --> Undefined array key 0
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 06:17:02 --> Undefined array key "tran"
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-03 06:18:07 --> Undefined array key 1
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

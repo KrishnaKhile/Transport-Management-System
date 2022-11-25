@@ -1,0 +1,156 @@
+CRITICAL - 2022-04-12 05:50:17 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 05:50:19 --> Undefined variable $acceptedqty
+#0 C:\xampp\htdocs\mywork\app\Views\adminview\neworder.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\mywork\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(67): view('adminview/newor...', Array)
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 23:20:27 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 23:20:32 --> Invalid file: adminview/neworder/1.php
+#0 C:\xampp\htdocs\mywork\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminview/newor...')
+#1 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(13): view('adminview/newor...')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->index()
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-12 23:20:45 --> Invalid file: adminview/neworder/1.php
+#0 C:\xampp\htdocs\mywork\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminview/newor...')
+#1 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(13): view('adminview/newor...')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->index()
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-12 23:21:05 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(13): view('adminview/newor...')
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->index()
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-12 23:21:13 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(13): view('adminview/newor...')
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->index()
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-12 23:21:25 --> Invalid file: adminview/neworder/$1.php
+#0 C:\xampp\htdocs\mywork\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminview/newor...')
+#1 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(13): view('adminview/newor...')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->index()
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-12 23:21:34 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(13): view('adminview/newor...')
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->index()
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-12 23:22:04 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\mywork\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\mywork\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('adminview/newor...', Array, true)
+#3 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(13): view('adminview/newor...')
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->index()
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-12 23:24:44 --> Unknown column 'login' in 'where clause'
+CRITICAL - 2022-04-12 23:24:44 --> Unknown column 'login' in 'where clause'
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(47): App\Models\adminmodel->getNew('login')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('login')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-12 23:25:46 --> Unknown column 'neworder' in 'where clause'
+CRITICAL - 2022-04-12 23:25:46 --> Unknown column 'neworder' in 'where clause'
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(47): App\Models\adminmodel->getNew('neworder')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('neworder')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-12 23:27:07 --> Unknown column 'preparation' in 'where clause'
+CRITICAL - 2022-04-12 23:27:07 --> Unknown column 'preparation' in 'where clause'
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(47): App\Models\adminmodel->getNew('preparation')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('preparation')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 23:29:01 --> Too few arguments to function App\Controllers\admin\ad::neworder(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-12 23:29:41 --> Unknown column 'neworder' in 'where clause'
+CRITICAL - 2022-04-12 23:29:41 --> Unknown column 'neworder' in 'where clause'
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(47): App\Models\adminmodel->getNew('neworder')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('neworder', '1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-12 23:32:34 --> Unknown column 'neworder' in 'where clause'
+CRITICAL - 2022-04-12 23:32:34 --> Unknown column 'neworder' in 'where clause'
+#0 C:\xampp\htdocs\mywork\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\mywork\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp\htdocs\mywork\app\Models\adminmodel.php(30): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(47): App\Models\adminmodel->getNew('neworder')
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('neworder', '1')
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#7 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

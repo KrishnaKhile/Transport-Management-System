@@ -1,0 +1,129 @@
+CRITICAL - 2022-08-26 22:51:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(581): CodeIgniter\Model->__call('checkDuplicate', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-26 22:52:52 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(581): CodeIgniter\Model->__call('checkDuplicate', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-26 22:52:53 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(581): CodeIgniter\Model->__call('checkDuplicate', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-26 22:52:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(581): CodeIgniter\Model->__call('checkDuplicate', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-08-26 23:05:28 --> Table 'trp.users' doesn't exist in engine
+CRITICAL - 2022-08-26 23:05:28 --> Table 'trp.users' doesn't exist in engine
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `r...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `r...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `r...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `r...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\login_model.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(36): App\Models\login_model->verifyUsername('krishna@gmail.c...')
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->index()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-26 23:19:10 --> Table 'trp.destination' doesn't exist
+CRITICAL - 2022-08-26 23:19:10 --> Table 'trp.destination' doesn't exist
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\selectmodel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(223): App\Models\selectmodel->locationSelect()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-26 23:42:42 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(581): CodeIgniter\Model->__call('checkDuplicate', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-26 23:43:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(581): CodeIgniter\Model->__call('checkDuplicate', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-26 23:43:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(581): CodeIgniter\Model->__call('checkDuplicate', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-26 23:44:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Models\itemmodel.php(12): CodeIgniter\Model->__get('request')
+#3 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(581): App\Models\itemmodel->checkDuplicate()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-26 23:44:49 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Models\itemmodel.php(12): CodeIgniter\Model->__get('request')
+#3 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(581): App\Models\itemmodel->checkDuplicate()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-26 23:45:16 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Models\itemmodel.php(12): CodeIgniter\Model->__get('request')
+#3 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(581): App\Models\itemmodel->checkDuplicate()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-26 23:45:35 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Models\itemmodel.php(12): CodeIgniter\Model->__get('request')
+#3 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(581): App\Models\itemmodel->checkDuplicate()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,7 @@
+CRITICAL - 2022-04-13 00:36:03 --> Undefined array key "transactionid"
+#0 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->neworder('1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

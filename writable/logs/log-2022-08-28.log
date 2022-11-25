@@ -1,0 +1,376 @@
+CRITICAL - 2022-08-28 07:03:56 --> unlink(C:\xampp\htdocs\trp\writable\debugbar/debugbar_1661619405.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\trp\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1661650430, 20)
+#3 C:\xampp\htdocs\trp\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\trp\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\trp\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-28 07:06:39 --> Undefined variable $data
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(488): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 488)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-28 07:06:43 --> Undefined variable $data
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(488): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 488)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-28 07:06:44 --> Undefined variable $data
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(488): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 488)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-28 07:33:10 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:33:10 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicateOnUpdate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:33:11 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:33:11 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicateOnUpdate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:34:16 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:34:16 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicateOnUpdate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:34:19 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:34:19 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicateOnUpdate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:34:20 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:34:20 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicateOnUpdate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:34:20 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:34:20 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicateOnUpdate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:34:25 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:34:25 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicateOnUpdate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:34:35 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:34:35 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicateOnUpdate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:36:46 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:36:46 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicateOnUpdate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:37:19 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:37:19 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicateOnUpdate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:38:53 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:38:53 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicateOnUpdate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:43:15 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:43:15 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicateOnUpdate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:45:20 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:45:20 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:45:28 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:45:28 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 07:45:39 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-08-28 07:45:39 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(496): App\Models\itemmodel->checkDuplicate(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-28 07:49:01 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(507): CodeIgniter\Model->__call('updateCity', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-28 07:49:19 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(507): CodeIgniter\Model->__call('updateCity', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-28 07:50:40 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(507): CodeIgniter\Model->__call('updateCity', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-28 07:50:50 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(507): CodeIgniter\Model->__call('updateCity', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-28 07:50:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(507): CodeIgniter\Model->__call('updateCity', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-28 19:18:52 --> Attempt to read property "id" on bool
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(489): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 489)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-28 19:19:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(507): CodeIgniter\Model->__call('updateCity', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-28 19:19:50 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(507): CodeIgniter\Model->__call('updateCity', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-28 19:19:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(507): CodeIgniter\Model->__call('updateCity', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-28 19:20:37 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(507): CodeIgniter\Model->__call('updateCity', Array)
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-28 20:20:51 --> Attempt to read property "id" on bool
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(489): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 489)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-28 20:21:01 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-08-28 20:21:01 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `destina...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `destina...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `destina...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `destina...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(60): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(508): App\Models\itemmodel->updateCity(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 20:26:18 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-08-28 20:26:18 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `destina...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `destina...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `destina...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `destina...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(60): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(508): App\Models\itemmodel->updateCity(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-28 20:27:57 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-08-28 20:27:57 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `destina...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `destina...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `destina...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `destina...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\itemmodel.php(60): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(508): App\Models\itemmodel->updateCity(Array)
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-28 20:48:00 --> Unmatched '}'
+#0 C:\xampp\htdocs\trp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\trp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-28 21:26:35 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\trp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('trpadmin/trpadm...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('trpadmin/trpadm...')
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

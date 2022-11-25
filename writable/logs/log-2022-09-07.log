@@ -1,0 +1,59 @@
+CRITICAL - 2022-09-07 20:13:42 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '192.168.43.87')
+#3 D:\XAMPP\htdocs\trp\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\XAMPP\htdocs\trp\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\XAMPP\htdocs\trp\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\XAMPP\htdocs\trp\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(23): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(802): App\Controllers\trpadmin\trpadmin->__construct()
+#9 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#10 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-07 20:13:42 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\trp\app\Config\Events.php:32) in D:\XAMPP\htdocs\trp\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\XAMPP\\htdocs...', 112)
+#1 D:\XAMPP\htdocs\trp\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-09-07 20:14:23 --> ini_set(): Session ini settings cannot be changed after headers have already been sent
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\system\Session\Handlers\FileHandler.php(71): ini_set('session.save_pa...', 'D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\Config\Services.php(570): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '192.168.43.87')
+#3 D:\XAMPP\htdocs\trp\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 D:\XAMPP\htdocs\trp\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 D:\XAMPP\htdocs\trp\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 D:\XAMPP\htdocs\trp\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#7 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(23): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(802): App\Controllers\trpadmin\trpadmin->__construct()
+#9 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#10 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-07 20:14:23 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at D:\XAMPP\htdocs\trp\app\Config\Events.php:32) in D:\XAMPP\htdocs\trp\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'D:\\XAMPP\\htdocs...', 112)
+#1 D:\XAMPP\htdocs\trp\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-09-07 20:59:48 --> Table 'trp.maha_tal_dist' doesn't exist
+CRITICAL - 2022-09-07 20:59:48 --> Table 'trp.maha_tal_dist' doesn't exist
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(452): App\Models\itemmodel->getTalDist()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->city()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

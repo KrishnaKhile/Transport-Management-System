@@ -1,0 +1,317 @@
+CRITICAL - 2022-07-04 02:53:13 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:53:14 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:53:15 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:53:15 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:53:16 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:53:16 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:53:16 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:53:16 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:53:16 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:53:34 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:53:53 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:58:09 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:58:10 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:58:10 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:58:11 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:58:11 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:58:11 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:58:40 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:58:41 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:58:41 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 02:58:45 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 03:00:54 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 03:08:15 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 10:57:46 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 11:01:13 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 11:05:08 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 11:06:48 --> Undefined property: App\Controllers\trpadmin\trpadmin::$requst
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-04 11:10:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where 1' at line 1
+CRITICAL - 2022-07-04 11:10:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where 1' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `transac...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transac...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transac...')
+#3 C:\xampp\htdocs\trp\app\Models\trpmodel.php(9): CodeIgniter\Database\BaseConnection->query('UPDATE `transac...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(32): App\Models\trpmodel->addConsignor(Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-04 11:11:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where 1' at line 1
+CRITICAL - 2022-07-04 11:11:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where 1' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `transac...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transac...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transac...')
+#3 C:\xampp\htdocs\trp\app\Models\trpmodel.php(9): CodeIgniter\Database\BaseConnection->query('UPDATE `transac...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(32): App\Models\trpmodel->addConsignor(Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-04 11:14:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where 1' at line 1
+CRITICAL - 2022-07-04 11:14:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where 1' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `transac...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transac...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transac...')
+#3 C:\xampp\htdocs\trp\app\Models\trpmodel.php(9): CodeIgniter\Database\BaseConnection->query('UPDATE `transac...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(28): App\Models\trpmodel->addConsignor(Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-04 11:17:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-07-04 11:17:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `transac...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transac...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transac...')
+#3 C:\xampp\htdocs\trp\app\Models\trpmodel.php(9): CodeIgniter\Database\BaseConnection->query('UPDATE `transac...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(28): App\Models\trpmodel->addConsignor(Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-04 11:20:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-07-04 11:20:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `transac...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transac...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transac...')
+#3 C:\xampp\htdocs\trp\app\Models\trpmodel.php(9): CodeIgniter\Database\BaseConnection->query('UPDATE `transac...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(28): App\Models\trpmodel->addConsignor(Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-04 11:29:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where 1' at line 1
+CRITICAL - 2022-07-04 11:29:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where 1' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `transac...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transac...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transac...')
+#3 C:\xampp\htdocs\trp\app\Models\trpmodel.php(9): CodeIgniter\Database\BaseConnection->query('UPDATE `transac...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(28): App\Models\trpmodel->addConsignor(Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-04 11:50:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values (,,,,,,)' at line 1
+CRITICAL - 2022-07-04 11:50:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values (,,,,,,)' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\trp\app\Models\trpmodel.php(9): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(28): App\Models\trpmodel->addConsignor(Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-04 11:51:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values (,,,,,,)' at line 1
+CRITICAL - 2022-07-04 11:51:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values (,,,,,,)' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\trp\app\Models\trpmodel.php(9): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(28): App\Models\trpmodel->addConsignor(Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-04 11:59:53 --> Column 'nor_name' cannot be null
+CRITICAL - 2022-07-04 11:59:53 --> Column 'nor_name' cannot be null
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\trp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(28): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#11 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-04 12:00:03 --> Column 'nor_name' cannot be null
+CRITICAL - 2022-07-04 12:00:03 --> Column 'nor_name' cannot be null
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\trp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(28): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#11 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

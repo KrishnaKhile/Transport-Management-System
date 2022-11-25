@@ -1,0 +1,6 @@
+CRITICAL - 2022-02-19 03:44:32 --> Too few arguments to function App\Controllers\admin\Myshop::product1(), 0 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 2 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\Myshop->product1()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\Myshop))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

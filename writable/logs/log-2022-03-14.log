@@ -1,0 +1,20 @@
+CRITICAL - 2022-03-14 13:52:53 --> unlink(C:\xampp\htdocs\mywork\writable\debugbar/debugbar_1646762155.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\mywork\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1647283973, 20)
+#3 C:\xampp\htdocs\mywork\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\mywork\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\mywork\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-14 13:52:56 --> unlink(C:\xampp\htdocs\mywork\writable\debugbar/debugbar_1646600081.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\mywork\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1647283976, 20)
+#3 C:\xampp\htdocs\mywork\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\mywork\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\mywork\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\mywork\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

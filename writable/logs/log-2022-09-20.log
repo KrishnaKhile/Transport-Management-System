@@ -1,0 +1,17 @@
+CRITICAL - 2022-09-20 13:57:15 --> file_get_contents(): Read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'D:\\XAMPP\\htdocs...', 464)
+#1 D:\XAMPP\htdocs\trp\system\Debug\Toolbar.php(464): file_get_contents('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 D:\XAMPP\htdocs\trp\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-20 23:41:16 --> You must set the database table to be used with your query.
+#0 D:\XAMPP\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\XAMPP\htdocs\trp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(153): CodeIgniter\Model->__call('getQuotData', Array)
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->getQuotdata()
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

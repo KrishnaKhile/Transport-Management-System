@@ -1,0 +1,6 @@
+CRITICAL - 2022-10-12 22:04:30 --> Too few arguments to function App\Controllers\trpadmin\trpadmin::noreditapi(), 0 passed in D:\XAMPP\htdocs\trp\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noreditapi()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

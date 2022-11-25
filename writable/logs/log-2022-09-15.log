@@ -1,0 +1,25 @@
+ERROR - 2022-09-15 17:23:32 --> Column 'nor_state' cannot be null
+CRITICAL - 2022-09-15 17:23:32 --> Column 'nor_state' cannot be null
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 D:\XAMPP\htdocs\trp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\trp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\trp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\XAMPP\htdocs\trp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(327): CodeIgniter\BaseModel->save(Array)
+#9 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#10 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#11 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-09-15 23:06:02 --> syntax error, unexpected token ";"
+#0 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/consign...', Array, true)
+#2 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(409): view('trpview/consign...', Array)
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EF()
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

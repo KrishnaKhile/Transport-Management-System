@@ -1,0 +1,231 @@
+ERROR - 2022-09-04 13:31:32 --> Unknown column 'created' in 'where clause'
+CRITICAL - 2022-09-04 13:31:32 --> Unknown column 'created' in 'where clause'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(148): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(32): App\Models\itemmodel->getQuotlimit()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->showData()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-04 13:31:34 --> Unknown column 'created' in 'where clause'
+CRITICAL - 2022-09-04 13:31:34 --> Unknown column 'created' in 'where clause'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(148): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(32): App\Models\itemmodel->getQuotlimit()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->showData()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-04 13:34:01 --> Unknown column 'created' in 'where clause'
+CRITICAL - 2022-09-04 13:34:01 --> Unknown column 'created' in 'where clause'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(148): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(32): App\Models\itemmodel->getQuotlimit()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->showData()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-04 13:34:36 --> Unknown column 'created' in 'where clause'
+CRITICAL - 2022-09-04 13:34:36 --> Unknown column 'created' in 'where clause'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(148): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(32): App\Models\itemmodel->getQuotlimit()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->showData()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-04 13:35:50 --> Unknown column 'created' in 'where clause'
+CRITICAL - 2022-09-04 13:35:50 --> Unknown column 'created' in 'where clause'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(148): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(32): App\Models\itemmodel->getQuotlimit()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->showData()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-04 13:54:10 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(77): count(NULL)
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->saveData()
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-04 14:02:56 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(77): count(NULL)
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->saveData()
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-04 14:07:36 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(77): count(NULL)
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->saveData()
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-04 14:11:17 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(77): count(NULL)
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->saveQuotation()
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-04 14:46:13 --> Undefined property: stdClass::$pin_tal_dist
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\city.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 124)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/city', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(454): view('trpview/city', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->city()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-04 15:46:21 --> Undefined property: stdClass::$d_id
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\city.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 72)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/city', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(455): view('trpview/city', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->city()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-04 15:57:45 --> Not unique table/alias: 'maha_tal_dist'
+CRITICAL - 2022-09-04 15:57:45 --> Not unique table/alias: 'maha_tal_dist'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(451): App\Models\itemmodel->getDataLimit()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->city()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-04 16:06:51 --> Not unique table/alias: 'maha_tal_dist'
+CRITICAL - 2022-09-04 16:06:51 --> Not unique table/alias: 'maha_tal_dist'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(451): App\Models\itemmodel->getDataLimit()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->city()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-04 16:16:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`destination`.`dist`
+WHERE `deleted` = 'N'
+ORDER BY `d_id` DESC' at line 3
+CRITICAL - 2022-09-04 16:16:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`destination`.`dist`
+WHERE `deleted` = 'N'
+ORDER BY `d_id` DESC' at line 3
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(451): App\Models\itemmodel->getDataLimit()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->city()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-04 16:21:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)
+WHERE `deleted` = 'N'
+ORDER BY `d_id` DESC' at line 3
+CRITICAL - 2022-09-04 16:21:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)
+WHERE `deleted` = 'N'
+ORDER BY `d_id` DESC' at line 3
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(451): App\Models\itemmodel->getDataLimit()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->city()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-04 19:12:18 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-04 19:12:20 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-04 19:12:43 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-04 19:14:08 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-04 19:14:10 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-04 19:14:10 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-04 19:14:10 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

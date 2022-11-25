@@ -1,0 +1,9 @@
+CRITICAL - 2022-06-17 00:24:02 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\mywork\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\mywork\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mywork\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\mywork\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\mywork\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,46 @@
+ERROR - 2022-09-09 16:04:52 --> Unknown column 'quo_no' in 'where clause'
+CRITICAL - 2022-09-09 16:04:52 --> Unknown column 'quo_no' in 'where clause'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `q...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `q...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `q...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `q...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(233): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(134): App\Models\itemmodel->getQuot()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->loadConQuot()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-09 21:43:53 --> Undefined property: stdClass::$quot_no
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\assign_quotation.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 140)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/assign_...', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(129): view('trpview/assign_...', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->assignQuot()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 21:44:19 --> Undefined property: stdClass::$d_id
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\assign_quotation.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 142)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/assign_...', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(129): view('trpview/assign_...', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->assignQuot()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-09 21:44:42 --> Undefined property: stdClass::$d_id
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\assign_quotation.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 142)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/assign_...', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(129): view('trpview/assign_...', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->assignQuot()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

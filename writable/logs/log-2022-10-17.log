@@ -1,0 +1,113 @@
+CRITICAL - 2022-10-17 20:20:35 --> Call to undefined function form_open()
+#0 D:\XAMPP\htdocs\trp\system\View\View.php(210): include()
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/registe...', Array, true)
+#3 D:\XAMPP\htdocs\trp\app\Controllers\reactproject\reactCon.php(58): view('trpview/registe...', Array)
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-17 20:31:33 --> Undefined property: App\Controllers\reactproject\reactCon::$registermodel
+#0 D:\XAMPP\htdocs\trp\app\Controllers\reactproject\reactCon.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 22)
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-17 20:35:20 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:35:39 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:36:20 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:37:37 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:37:44 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:38:07 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:38:16 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:38:41 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:39:26 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:40:24 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:40:28 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:42:17 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:44:10 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:44:16 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:45:09 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-17 20:45:53 --> Call to a member function createUser() on null
+#0 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\reactproject\reactCon->registerUser()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\reactproject\reactCon))
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

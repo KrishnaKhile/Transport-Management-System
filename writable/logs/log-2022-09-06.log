@@ -1,0 +1,88 @@
+CRITICAL - 2022-09-06 18:30:51 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-06 18:30:56 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-06 18:30:58 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-06 18:30:58 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-06 18:30:58 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-06 18:30:59 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-06 18:30:59 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-06 18:30:59 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-06 18:31:00 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-06 18:31:00 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-06 18:31:08 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 71)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

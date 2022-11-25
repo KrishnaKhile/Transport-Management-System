@@ -1,0 +1,33 @@
+CRITICAL - 2022-09-03 00:41:42 --> Undefined variable $userdata
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\cquotation.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 12)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/cquotat...', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(36): view('trpview/cquotat...', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->showData()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-03 22:24:07 --> Undefined property: stdClass::$dist
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\city.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 124)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/city', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(454): view('trpview/city', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->city()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-03 22:25:10 --> Undefined property: stdClass::$dist
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\city.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 124)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/city', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(454): view('trpview/city', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->city()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

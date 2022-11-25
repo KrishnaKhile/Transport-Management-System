@@ -1,0 +1,1639 @@
+ERROR - 2022-07-30 02:36:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+CRITICAL - 2022-07-30 02:36:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:39:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+CRITICAL - 2022-07-30 02:39:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:39:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+CRITICAL - 2022-07-30 02:39:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:39:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+CRITICAL - 2022-07-30 02:39:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:39:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+CRITICAL - 2022-07-30 02:39:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:39:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+CRITICAL - 2022-07-30 02:39:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:39:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+CRITICAL - 2022-07-30 02:39:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:39:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+CRITICAL - 2022-07-30 02:39:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:39:39 --> Unknown column 'fs' in 'field list'
+CRITICAL - 2022-07-30 02:39:39 --> Unknown column 'fs' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:39:40 --> Unknown column 'fs' in 'field list'
+CRITICAL - 2022-07-30 02:39:40 --> Unknown column 'fs' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:39:40 --> Unknown column 'fs' in 'field list'
+CRITICAL - 2022-07-30 02:39:40 --> Unknown column 'fs' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:39:40 --> Unknown column 'fs' in 'field list'
+CRITICAL - 2022-07-30 02:39:40 --> Unknown column 'fs' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:41:45 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 02:41:45 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-30 02:41:46 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 02:41:46 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-30 02:41:46 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 02:41:46 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-30 02:41:46 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 02:41:46 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-30 02:41:46 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 02:41:46 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-30 02:41:47 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 02:41:47 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-30 02:41:47 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 02:41:47 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-30 02:41:47 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 02:41:47 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-30 02:44:55 --> Unknown column 'EF' in 'field list'
+CRITICAL - 2022-07-30 02:44:55 --> Unknown column 'EF' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('3', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 02:45:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+CRITICAL - 2022-07-30 02:45:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 03:05:50 --> Unknown column 'EF' in 'field list'
+CRITICAL - 2022-07-30 03:05:50 --> Unknown column 'EF' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->updatenor('3', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 03:06:56 --> Unknown column 'EF' in 'field list'
+CRITICAL - 2022-07-30 03:06:56 --> Unknown column 'EF' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->updatenor('3', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-30 03:15:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\trp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\trp\system\Model.php(176): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\trp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(49): CodeIgniter\BaseModel->findAll()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnor()
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-30 03:16:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+CRITICAL - 2022-07-30 03:16:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id= 2' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->updatenor('2', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-30 03:18:41 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->updatenor('3', Array)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-30 03:20:35 --> Unknown column 'EF' in 'field list'
+CRITICAL - 2022-07-30 03:20:35 --> Unknown column 'EF' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->updatenor(Array, '3')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 03:22:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where nor_id= 3' at line 1
+CRITICAL - 2022-07-30 03:22:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where nor_id= 3' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->updatenor(Array, '3')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 03:23:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where nor_id= 3' at line 1
+CRITICAL - 2022-07-30 03:23:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where nor_id= 3' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->updatenor(Array, '3')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 04:05:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where nor_id= 3' at line 1
+CRITICAL - 2022-07-30 04:05:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where nor_id= 3' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->updatenor(Array, '3')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 04:09:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2, where nor_id= 4' at line 1
+CRITICAL - 2022-07-30 04:09:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2, where nor_id= 4' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '4')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-30 04:18:55 --> Array to string conversion
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-30 04:19:05 --> Array to string conversion
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-30 04:19:50 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\trp\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('4', 'update')
+#1 C:\xampp\htdocs\trp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, '4')
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): CodeIgniter\Model->update(Array, '4')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-30 04:25:40 --> Object of class App\Models\normodel could not be converted to string
+#0 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-07-30 04:26:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2, where nor_id= 4' at line 1
+CRITICAL - 2022-07-30 04:26:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2, where nor_id= 4' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '4')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 04:31:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where nor_id= 3' at line 1
+CRITICAL - 2022-07-30 04:31:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where nor_id= 3' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '3')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 04:38:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where nor_id= 3' at line 1
+CRITICAL - 2022-07-30 04:38:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where nor_id= 3' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '3')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 04:43:12 --> Unknown column 'EF' in 'field list'
+CRITICAL - 2022-07-30 04:43:12 --> Unknown column 'EF' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '3')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 04:43:45 --> Unknown column 'EF' in 'field list'
+CRITICAL - 2022-07-30 04:43:45 --> Unknown column 'EF' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(45): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdat(Array, '3')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 09:59:47 --> Cannot add or update a child row: a foreign key constraint fails (`trp`.`consignor`, CONSTRAINT `consignor_ibfk_1` FOREIGN KEY (`nor_city`) REFERENCES `destination` (`d_id`))
+CRITICAL - 2022-07-30 09:59:47 --> Cannot add or update a child row: a foreign key constraint fails (`trp`.`consignor`, CONSTRAINT `consignor_ibfk_1` FOREIGN KEY (`nor_city`) REFERENCES `destination` (`d_id`))
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\trp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#11 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-30 09:59:49 --> Cannot add or update a child row: a foreign key constraint fails (`trp`.`consignor`, CONSTRAINT `consignor_ibfk_1` FOREIGN KEY (`nor_city`) REFERENCES `destination` (`d_id`))
+CRITICAL - 2022-07-30 09:59:49 --> Cannot add or update a child row: a foreign key constraint fails (`trp`.`consignor`, CONSTRAINT `consignor_ibfk_1` FOREIGN KEY (`nor_city`) REFERENCES `destination` (`d_id`))
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\trp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#11 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-30 09:59:49 --> Cannot add or update a child row: a foreign key constraint fails (`trp`.`consignor`, CONSTRAINT `consignor_ibfk_1` FOREIGN KEY (`nor_city`) REFERENCES `destination` (`d_id`))
+CRITICAL - 2022-07-30 09:59:49 --> Cannot add or update a child row: a foreign key constraint fails (`trp`.`consignor`, CONSTRAINT `consignor_ibfk_1` FOREIGN KEY (`nor_city`) REFERENCES `destination` (`d_id`))
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\trp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#11 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-30 09:59:49 --> Cannot add or update a child row: a foreign key constraint fails (`trp`.`consignor`, CONSTRAINT `consignor_ibfk_1` FOREIGN KEY (`nor_city`) REFERENCES `destination` (`d_id`))
+CRITICAL - 2022-07-30 09:59:49 --> Cannot add or update a child row: a foreign key constraint fails (`trp`.`consignor`, CONSTRAINT `consignor_ibfk_1` FOREIGN KEY (`nor_city`) REFERENCES `destination` (`d_id`))
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\trp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#11 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-30 09:59:49 --> Cannot add or update a child row: a foreign key constraint fails (`trp`.`consignor`, CONSTRAINT `consignor_ibfk_1` FOREIGN KEY (`nor_city`) REFERENCES `destination` (`d_id`))
+CRITICAL - 2022-07-30 09:59:49 --> Cannot add or update a child row: a foreign key constraint fails (`trp`.`consignor`, CONSTRAINT `consignor_ibfk_1` FOREIGN KEY (`nor_city`) REFERENCES `destination` (`d_id`))
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\trp\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\trp\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->BE45KL()
+#10 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#11 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-30 11:13:51 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:13:51 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:13:51 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:13:51 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:13:52 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:13:52 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:13:52 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:13:52 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:13:52 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:13:52 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:13:53 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:13:53 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:13:54 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:13:54 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:13:58 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:13:58 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:13:59 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:13:59 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:13:59 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:13:59 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:13:59 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:13:59 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:14:00 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:14:00 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:14:24 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:14:24 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:14:24 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:14:24 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(109): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:14:25 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:14:25 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(109): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:14:26 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:14:26 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(109): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:14:27 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:14:27 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(109): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:14:30 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:14:30 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:14:31 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:14:31 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:26 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:26 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:27 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:27 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:27 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:27 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:27 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:27 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:28 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:28 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(109): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:28 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:28 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(109): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:28 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:28 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(109): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:28 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:28 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(109): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:29 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:29 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:29 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:29 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:29 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:29 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(109): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:30 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:30 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:30 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:30 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:31 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:31 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(109): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:31 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:31 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(109): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:31 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:31 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:31 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:31 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:32 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:32 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:20:33 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:20:33 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:21:58 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:21:58 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:21:58 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:21:58 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:21:59 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:21:59 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:21:59 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:21:59 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:23:08 --> Unknown column 'asf' in 'field list'
+CRITICAL - 2022-07-30 11:23:08 --> Unknown column 'asf' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->norupdat(Array, '1')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 11:23:09 --> Unknown column 'asf' in 'field list'
+CRITICAL - 2022-07-30 11:23:09 --> Unknown column 'asf' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->norupdat(Array, '1')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 11:23:09 --> Unknown column 'asf' in 'field list'
+CRITICAL - 2022-07-30 11:23:09 --> Unknown column 'asf' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->norupdat(Array, '1')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 11:26:11 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:26:11 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(108): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:26:11 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:26:11 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(108): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:26:11 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:26:11 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(108): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->noredit()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:26:32 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:26:32 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:26:33 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:26:33 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('2')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:26:34 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:26:34 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('3')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:26:35 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:26:35 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('4')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:31:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id=4' at line 1
+CRITICAL - 2022-07-30 11:31:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id=4' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->norupdate(Array, '4')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 11:34:52 --> Unknown column 'EF' in 'field list'
+CRITICAL - 2022-07-30 11:34:52 --> Unknown column 'EF' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->norupdate(Array, '3')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-30 11:35:21 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\trp\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('2', 'update')
+#1 C:\xampp\htdocs\trp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, '2')
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Model->update(Array, '2')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-30 11:35:51 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:35:51 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-30 11:36:01 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\trp\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('1', 'update')
+#1 C:\xampp\htdocs\trp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, '1')
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Model->update(Array, '1')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-30 11:37:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id=4' at line 1
+CRITICAL - 2022-07-30 11:37:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id=4' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): App\Models\normodel->norupdate(Array, '4')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 11:38:16 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:38:16 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:38:17 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:38:17 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:38:18 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:38:18 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:38:19 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:38:19 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-30 11:38:20 --> Unknown column 'consignor.id' in 'where clause'
+CRITICAL - 2022-07-30 11:38:20 --> Unknown column 'consignor.id' in 'where clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(101): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norview()
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#9 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-30 11:38:23 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\trp\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('1', 'update')
+#1 C:\xampp\htdocs\trp\system\Model.php(651): CodeIgniter\BaseModel->update(Array, '1')
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(128): CodeIgniter\Model->update(Array, '1')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-30 11:40:12 --> Unknown column 'asf' in 'field list'
+CRITICAL - 2022-07-30 11:40:12 --> Unknown column 'asf' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '1')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 11:43:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as where nor_id=1' at line 1
+CRITICAL - 2022-07-30 11:43:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as where nor_id=1' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '1')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 11:43:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as where nor_id=1' at line 1
+CRITICAL - 2022-07-30 11:43:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as where nor_id=1' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '1')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 11:47:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as where nor_id=1' at line 1
+CRITICAL - 2022-07-30 11:47:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as where nor_id=1' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '1')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 12:24:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as where nor_id=1' at line 1
+CRITICAL - 2022-07-30 12:24:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as where nor_id=1' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '1')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 13:00:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as where nor_id=1' at line 1
+CRITICAL - 2022-07-30 13:00:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as where nor_id=1' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '1')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 13:01:05 --> Unknown column 'GSF' in 'field list'
+CRITICAL - 2022-07-30 13:01:05 --> Unknown column 'GSF' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '4')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 13:02:58 --> Unknown column 'fsd' in 'field list'
+CRITICAL - 2022-07-30 13:02:58 --> Unknown column 'fsd' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '2')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 13:11:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id=2' at line 1
+CRITICAL - 2022-07-30 13:11:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id=2' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '2')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 13:48:59 --> Unknown column 'EF' in 'field list'
+CRITICAL - 2022-07-30 13:48:59 --> Unknown column 'EF' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `consign...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `consign...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `consign...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE `consign...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '3')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 13:50:15 --> Unknown column 'asf' in 'field list'
+CRITICAL - 2022-07-30 13:50:15 --> Unknown column 'asf' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE consigno...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE consigno...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE consigno...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE consigno...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '1')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 13:50:33 --> Unknown column 'asf' in 'field list'
+CRITICAL - 2022-07-30 13:50:33 --> Unknown column 'asf' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE consigno...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE consigno...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE consigno...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE consigno...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '1')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 13:51:30 --> Unknown column 'asfgg' in 'field list'
+CRITICAL - 2022-07-30 13:51:30 --> Unknown column 'asfgg' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE consigno...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE consigno...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE consigno...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE consigno...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '1')
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-30 13:52:48 --> Undefined array key "nor_shortcode"
+#0 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate(Array, '2')
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-30 14:03:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id=4' at line 1
+CRITICAL - 2022-07-30 14:03:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' nor_pincode=0, nor_payment_type=2 where nor_id=4' at line 1
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE consigno...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE consigno...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE consigno...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE consigno...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->norupdate('4', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 14:06:22 --> Unknown column 'kk' in 'field list'
+CRITICAL - 2022-07-30 14:06:22 --> Unknown column 'kk' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE consigno...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE consigno...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE consigno...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE consigno...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->upNor('8', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-30 14:06:31 --> Unknown column 'kkjj' in 'field list'
+CRITICAL - 2022-07-30 14:06:31 --> Unknown column 'kkjj' in 'field list'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE consigno...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE consigno...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE consigno...')
+#3 C:\xampp\htdocs\trp\app\Models\normodel.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE consigno...')
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(129): App\Models\normodel->upNor('8', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norupdate()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

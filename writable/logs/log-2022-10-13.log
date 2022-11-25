@@ -1,0 +1,172 @@
+CRITICAL - 2022-10-13 00:07:36 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-13 00:07:36 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-13 00:07:36 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-13 00:07:36 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-13 00:07:38 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-13 00:07:43 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-13 10:37:53 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-13 10:38:23 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-13 10:38:27 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-13 11:18:31 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-13 11:18:58 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-13 11:22:20 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-10-13 14:13:22 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-10-13 14:13:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(bilt...', Array, false)
+#2 D:\XAMPP\htdocs\trp\app\Models\dashboardmodel.php(109): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(311): App\Models\dashboardmodel->getMaxBilty()
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->getmax()
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-10-13 14:13:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-10-13 14:13:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(bilt...', Array, false)
+#2 D:\XAMPP\htdocs\trp\app\Models\dashboardmodel.php(109): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(311): App\Models\dashboardmodel->getMaxBilty()
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->getmax()
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-10-13 14:13:29 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-10-13 14:13:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(bilt...', Array, false)
+#2 D:\XAMPP\htdocs\trp\app\Models\dashboardmodel.php(109): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(311): App\Models\dashboardmodel->getMaxBilty()
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->getmax()
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-10-13 14:13:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-10-13 14:13:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(bilt...', Array, false)
+#2 D:\XAMPP\htdocs\trp\app\Models\dashboardmodel.php(109): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(311): App\Models\dashboardmodel->getMaxBilty()
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->getmax()
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-10-13 14:13:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-10-13 14:13:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT MAX(bilt...', Array, false)
+#2 D:\XAMPP\htdocs\trp\app\Models\dashboardmodel.php(109): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(311): App\Models\dashboardmodel->getMaxBilty()
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->getmax()
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-13 15:13:04 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi('53')
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-13 15:13:31 --> Undefined array key "nor_city"
+#0 D:\XAMPP\htdocs\trp\app\Models\normodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 64)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(386): App\Models\normodel->updateNor(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->norUpdateapi('53')
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

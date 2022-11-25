@@ -1,0 +1,249 @@
+CRITICAL - 2022-02-18 08:42:44 --> syntax error, unexpected identifier "extend", expecting "{"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 08:42:50 --> syntax error, unexpected identifier "extend", expecting "{"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 08:43:04 --> syntax error, unexpected identifier "extend", expecting "{"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 08:43:11 --> syntax error, unexpected identifier "extend", expecting "{"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 08:44:01 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 08:44:03 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 08:44:15 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 08:44:18 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 08:47:25 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 08:47:37 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 08:47:41 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 08:49:18 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-18 08:49:20 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-18 08:49:30 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-18 08:51:11 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 09:14:40 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello1')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello1')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 09:38:58 --> syntax error, unexpected identifier "extend", expecting "{"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 09:39:00 --> syntax error, unexpected identifier "extend", expecting "{"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 09:39:02 --> syntax error, unexpected identifier "extend", expecting "{"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 09:39:59 --> syntax error, unexpected identifier "extend", expecting "{"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 09:40:02 --> syntax error, unexpected identifier "extend", expecting "{"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 09:40:20 --> syntax error, unexpected identifier "extend", expecting "{"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 09:40:21 --> syntax error, unexpected identifier "extend", expecting "{"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 09:40:21 --> syntax error, unexpected identifier "extend", expecting "{"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 09:40:52 --> Class "Codeigniter\Controllers" not found
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 09:40:54 --> Class "Codeigniter\Controllers" not found
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 09:41:53 --> Class "Codeigniter\Controllers" not found
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 09:44:04 --> Class "App\Controllers\Controller" not found
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 09:44:07 --> Class "App\Controllers\Controller" not found
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hello2')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('hello2')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 09:48:45 --> Invalid file: helloview.php
+#0 C:\xampp\htdocs\mywork\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('helloview.php')
+#1 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('helloview', Array, true)
+#2 C:\xampp\htdocs\mywork\app\Controllers\hello2.php(10): view('helloview', Array)
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\Hello2->index()
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hello2))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-18 10:00:29 --> Undefined constant "App\Controllers\a"
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\hello3->index()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hello3))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-18 10:00:31 --> Undefined constant "App\Controllers\a"
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\hello3->index()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hello3))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-18 10:00:32 --> Undefined constant "App\Controllers\a"
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\hello3->index()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\hello3))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-18 10:02:02 --> Undefined constant "App\Controllers\a"
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\Hello3->index()
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hello3))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-18 19:40:11 --> syntax error, unexpected single-quoted string "</h2>", expecting "," or ";"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Shop/Product1/j...')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Shop/Product1/j...')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 19:40:13 --> syntax error, unexpected single-quoted string "</h2>", expecting "," or ";"
+#0 C:\xampp\htdocs\mywork\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Shop/Product1/j...')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Shop/Product1/j...')
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 19:43:43 --> Too few arguments to function App\Controllers\Shop::product1(), 1 passed in C:\xampp\htdocs\mywork\system\CodeIgniter.php on line 825 and exactly 2 expected
+#0 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\Shop->product1('laptopcharger')
+#1 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#2 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

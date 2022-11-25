@@ -1,0 +1,64 @@
+CRITICAL - 2022-09-01 23:47:06 --> Invalid file: trpview/quoation.php
+#0 D:\XAMPP\htdocs\trp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('trpview/quoatio...')
+#1 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/quoatio...', Array, true)
+#2 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(17): view('trpview/quoatio...')
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->index()
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-01 23:47:45 --> Undefined variable $userdata
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\cquotation.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 12)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/cquotat...', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(17): view('trpview/cquotat...')
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->index()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-01 23:49:30 --> Attempt to read property "profile_pic" on bool
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\cquotation.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\XAMPP\\htdocs...', 12)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/cquotat...', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(20): view('trpview/cquotat...', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->index()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-01 23:49:37 --> Attempt to read property "profile_pic" on bool
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\cquotation.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\XAMPP\\htdocs...', 12)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/cquotat...', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(20): view('trpview/cquotat...', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->index()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-01 23:50:23 --> Attempt to read property "profile_pic" on bool
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\cquotation.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\XAMPP\\htdocs...', 12)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/cquotat...', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(22): view('trpview/cquotat...', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->index()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-01 23:50:24 --> Attempt to read property "profile_pic" on bool
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\cquotation.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\XAMPP\\htdocs...', 12)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/cquotat...', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(22): view('trpview/cquotat...', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->index()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

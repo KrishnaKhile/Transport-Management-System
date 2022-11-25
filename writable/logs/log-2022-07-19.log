@@ -1,0 +1,22 @@
+CRITICAL - 2022-07-19 14:19:58 --> Undefined property: stdClass::$transactionid
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(21): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-19 14:24:17 --> Undefined property: stdClass::$nor_id
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 169)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(22): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,73 @@
+CRITICAL - 2022-06-30 00:22:33 --> Invalid file: trpview/index.php
+#0 C:\xampp\htdocs\trp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('trpview/index.p...')
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/index', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('trpview/index')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-30 05:16:24 --> Unmatched ')'
+#0 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/layout/...', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('trpview/layout/...')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-30 06:05:21 --> Undefined constant "APPATH"
+#0 C:\xampp\htdocs\trp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/layout/...', Array, true)
+#3 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('trpview/layout/...')
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-30 06:07:43 --> Unmatched ')'
+#0 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/layout/...', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('trpview/layout/...')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-30 06:08:02 --> Unmatched ')'
+#0 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/layout/...', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('trpview/layout/...')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-30 08:37:45 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/layout/...', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('trpview/layout/...')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-30 08:38:05 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/layout/...', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('trpview/layout/...')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-30 08:38:25 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/layout/...', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('trpview/layout/...')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

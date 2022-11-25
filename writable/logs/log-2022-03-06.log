@@ -1,0 +1,9 @@
+CRITICAL - 2022-03-06 03:18:31 --> Invalid file: admin/login.php
+#0 C:\xampp\htdocs\mywork\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+#1 C:\xampp\htdocs\mywork\system\Common.php(1089): CodeIgniter\View\View->render('admin/login', Array, true)
+#2 C:\xampp\htdocs\mywork\app\Controllers\admin\ad.php(15): view('admin/login')
+#3 C:\xampp\htdocs\mywork\system\CodeIgniter.php(825): App\Controllers\admin\ad->login()
+#4 C:\xampp\htdocs\mywork\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin\ad))
+#5 C:\xampp\htdocs\mywork\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mywork\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

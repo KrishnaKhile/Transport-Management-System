@@ -1,0 +1,300 @@
+CRITICAL - 2022-08-06 00:49:49 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\trp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('trpadmin/login/...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('trpadmin/login/...')
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 00:50:10 --> Unclosed '{' on line 12
+#0 C:\xampp\htdocs\trp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('trpadmin/login/...')
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('trpadmin/login/...')
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 01:37:09 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:39:23 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:39:25 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:39:26 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:39:38 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:41:31 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:55:30 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:55:32 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:55:32 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:55:33 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:55:33 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:55:34 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:55:34 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:55:34 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:55:34 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:55:35 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:55:35 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 01:55:36 --> Declaration of App\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = null)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 02:03:27 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\user_profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/user_pr...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(48): view('trpview/user_pr...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->userprofile()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 14:41:22 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\login_activity.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/login_a...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(194): view('trpview/login_a...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->loginactivity()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 14:44:39 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\login_activity.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/login_a...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(194): view('trpview/login_a...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->loginactivity()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 16:02:34 --> Undefined variable $validation
+#0 C:\xampp\htdocs\trp\app\Views\trpview\user_profile.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 290)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/user_pr...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(48): view('trpview/user_pr...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->userprofile()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 17:40:35 --> session_start(): Failed to decode session object. Session has been destroyed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_start()...', 'C:\\xampp\\htdocs...', 894)
+#1 C:\xampp\htdocs\trp\system\Session\Session.php(894): session_start()
+#2 C:\xampp\htdocs\trp\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#3 C:\xampp\htdocs\trp\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#4 C:\xampp\htdocs\trp\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#5 C:\xampp\htdocs\trp\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#6 C:\xampp\htdocs\trp\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#7 C:\xampp\htdocs\trp\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 C:\xampp\htdocs\trp\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\xampp\htdocs\trp\app\Filters\LoginFilter.php(12): session()
+#10 C:\xampp\htdocs\trp\system\Filters\Filters.php(173): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#11 C:\xampp\htdocs\trp\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('userprofile', 'before')
+#12 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-08-06 18:02:38 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 198)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->passforgot()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 20:32:39 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\trp\app\Views\trpview\login_view.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 138)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/login_v...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\login.php(160): view('trpview/login_v...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\login->index()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\login))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 21:48:11 --> Call to undefined method App\Models\normodel::neeList
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(256): CodeIgniter\Model->__call('neeList', Array)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnee()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 21:48:45 --> Call to undefined method App\Models\normodel::neeList
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(256): CodeIgniter\Model->__call('neeList', Array)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnee()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 21:49:33 --> Call to undefined method App\Models\normodel::neeList
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(256): CodeIgniter\Model->__call('neeList', Array)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnee()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 21:50:31 --> Call to undefined method App\Models\normodel::neeList
+#0 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(256): CodeIgniter\Model->__call('neeList', Array)
+#1 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnee()
+#2 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-06 21:52:26 --> Unknown column 'consignor.nee_city' in 'on clause'
+CRITICAL - 2022-08-06 21:52:26 --> Unknown column 'consignor.nee_city' in 'on clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\neemodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(256): App\Models\neemodel->neeList()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnee()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 21:53:50 --> Unknown column 'consignor.nee_city' in 'on clause'
+CRITICAL - 2022-08-06 21:53:50 --> Unknown column 'consignor.nee_city' in 'on clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\neemodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(256): App\Models\neemodel->neeList()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnee()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 21:54:20 --> Unknown column 'consignor.nee_city' in 'on clause'
+CRITICAL - 2022-08-06 21:54:20 --> Unknown column 'consignor.nee_city' in 'on clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\neemodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(256): App\Models\neemodel->neeList()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnee()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 21:55:43 --> Unknown column 'consignor.nee_city' in 'on clause'
+CRITICAL - 2022-08-06 21:55:43 --> Unknown column 'consignor.nee_city' in 'on clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\neemodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(256): App\Models\neemodel->neeList()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnee()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 21:56:56 --> Unknown column 'consignor.nee_city' in 'on clause'
+CRITICAL - 2022-08-06 21:56:56 --> Unknown column 'consignor.nee_city' in 'on clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\neemodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(256): App\Models\neemodel->neeList()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnee()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 21:59:49 --> Unknown column 'consignor.nee_city' in 'on clause'
+CRITICAL - 2022-08-06 21:59:49 --> Unknown column 'consignor.nee_city' in 'on clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\neemodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(256): App\Models\neemodel->neeList()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnee()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 22:01:02 --> Unknown column 'consignor.nee_city' in 'on clause'
+CRITICAL - 2022-08-06 22:01:02 --> Unknown column 'consignor.nee_city' in 'on clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\neemodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(256): App\Models\neemodel->neeList()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnee()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 22:02:36 --> Unknown column 'consignor.nee_city' in 'on clause'
+CRITICAL - 2022-08-06 22:02:36 --> Unknown column 'consignor.nee_city' in 'on clause'
+#0 C:\xampp\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\trp\app\Models\neemodel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(256): App\Models\neemodel->neeList()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->fetchnee()
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-06 22:52:52 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\addbilty.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/addbilt...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(225): view('trpview/addbilt...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->B98EG()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 22:54:03 --> Attempt to read property "profile_pic" on bool
+#0 C:\xampp\htdocs\trp\app\Views\trpview\user_profile.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\trp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/user_pr...', Array, true)
+#4 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(48): view('trpview/user_pr...', Array)
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->userprofile()
+#6 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#7 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

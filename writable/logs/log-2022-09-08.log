@@ -1,0 +1,181 @@
+ERROR - 2022-09-08 00:26:13 --> Unknown column 'Distinct' in 'field list'
+CRITICAL - 2022-09-08 00:26:13 --> Unknown column 'Distinct' in 'field list'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `Distinc...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Distinc...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Distinc...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `Distinc...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(31): App\Models\itemmodel->getTaluka()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->loadTalDist()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-08 00:26:15 --> Unknown column 'Distinct' in 'field list'
+CRITICAL - 2022-09-08 00:26:15 --> Unknown column 'Distinct' in 'field list'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `Distinc...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Distinc...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Distinc...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `Distinc...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(31): App\Models\itemmodel->getTaluka()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->loadTalDist()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-08 00:27:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::selectDistinct()
+#0 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(31): App\Models\itemmodel->getTaluka()
+#1 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->loadTalDist()
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-08 00:29:02 --> Table 'trp.taluka' doesn't exist
+CRITICAL - 2022-09-08 00:29:02 --> Table 'trp.taluka' doesn't exist
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `distinc...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `distinc...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `distinc...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `distinc...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(31): App\Models\itemmodel->getTaluka()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->loadTalDist()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-08 00:30:05 --> Table 'trp.taluka' doesn't exist
+CRITICAL - 2022-09-08 00:30:05 --> Table 'trp.taluka' doesn't exist
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `distinc...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `distinc...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `distinc...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `distinc...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(31): App\Models\itemmodel->getTaluka()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->loadTalDist()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-08 00:30:14 --> Unknown column 'distinct' in 'field list'
+CRITICAL - 2022-09-08 00:30:14 --> Unknown column 'distinct' in 'field list'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `distinc...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `distinc...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `distinc...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `distinc...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(31): App\Models\itemmodel->getTaluka()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->loadTalDist()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-08 01:09:54 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 80)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(510): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-08 01:17:58 --> Unknown column 'pincode' in 'field list'
+CRITICAL - 2022-09-08 01:17:58 --> Unknown column 'pincode' in 'field list'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(478): App\Models\itemmodel->insertCity(Array)
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-08 01:20:21 --> Column 'pin' cannot be null
+CRITICAL - 2022-09-08 01:20:21 --> Column 'pin' cannot be null
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(478): App\Models\itemmodel->insertCity(Array)
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-09-08 01:20:23 --> Column 'pin' cannot be null
+CRITICAL - 2022-09-08 01:20:23 --> Column 'pin' cannot be null
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `de...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(478): App\Models\itemmodel->insertCity(Array)
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->insertCity()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-08 01:32:54 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 80)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(511): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-08 01:36:15 --> Undefined array key "taluka"
+#0 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\XAMPP\\htdocs...', 80)
+#1 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(512): App\Models\itemmodel->updateCity(Array)
+#2 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->updateCity()
+#3 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#4 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-08 14:57:48 --> Unknown column 'pin' in 'where clause'
+CRITICAL - 2022-09-08 14:57:48 --> Unknown column 'pin' in 'where clause'
+#0 D:\XAMPP\htdocs\trp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\XAMPP\htdocs\trp\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\XAMPP\htdocs\trp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\trp\app\Models\itemmodel.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(40): App\Models\itemmodel->getpin(NULL)
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->talDist()
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#8 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-09-08 16:23:53 --> Undefined variable $userdata
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\assign_quotation.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\XAMPP\\htdocs...', 12)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/assign_...', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(124): view('trpview/assign_...')
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->assignQuot()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-08 16:24:36 --> Attempt to read property "profile_pic" on bool
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\assign_quotation.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\XAMPP\\htdocs...', 12)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/assign_...', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(127): view('trpview/assign_...', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->assignQuot()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-08 16:24:38 --> Attempt to read property "profile_pic" on bool
+#0 D:\XAMPP\htdocs\trp\app\Views\trpview\assign_quotation.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\XAMPP\\htdocs...', 12)
+#1 D:\XAMPP\htdocs\trp\system\View\View.php(210): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\trp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\XAMPP\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpview/assign_...', Array, true)
+#4 D:\XAMPP\htdocs\trp\app\Controllers\trpadmin\quotation.php(127): view('trpview/assign_...', Array)
+#5 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\quotation->assignQuot()
+#6 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\quotation))
+#7 D:\XAMPP\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

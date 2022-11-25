@@ -1,0 +1,63 @@
+CRITICAL - 2022-07-02 10:23:44 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\trp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('dashboard')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 10:29:35 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\trp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('dashboard')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 10:29:40 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\trp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('dashboard')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 10:30:26 --> Invalid file: trpadmin/dashboard.php
+#0 C:\xampp\htdocs\trp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('trpadmin/dashbo...')
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpadmin/dashbo...', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('trpadmin/dashbo...')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 10:30:30 --> Invalid file: trpadmin/dashboard.php
+#0 C:\xampp\htdocs\trp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('trpadmin/dashbo...')
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpadmin/dashbo...', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('trpadmin/dashbo...')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 10:31:22 --> Invalid file: trpadmin/dashboard.php
+#0 C:\xampp\htdocs\trp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('trpadmin/dashbo...')
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpadmin/dashbo...', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('trpadmin/dashbo...')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-02 10:37:27 --> Invalid file: trpadmin/dashboard.php
+#0 C:\xampp\htdocs\trp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('trpadmin/dashbo...')
+#1 C:\xampp\htdocs\trp\system\Common.php(1089): CodeIgniter\View\View->render('trpadmin/dashbo...', Array, true)
+#2 C:\xampp\htdocs\trp\app\Controllers\trpadmin\trpadmin.php(10): view('trpadmin/dashbo...')
+#3 C:\xampp\htdocs\trp\system\CodeIgniter.php(825): App\Controllers\trpadmin\trpadmin->index()
+#4 C:\xampp\htdocs\trp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\trpadmin\trpadmin))
+#5 C:\xampp\htdocs\trp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\trp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
